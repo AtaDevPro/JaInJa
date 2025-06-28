@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>JaInJa &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="JaInJa logo" class="logo" />
+
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="سرچ کنید..." />
+          <button class="search__button">
+            <svg class="search__button-icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="search__button-icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notitfication">7</span>
+          </div>
+
+          <div class="user-nav__icon-box">
+            <svg class="search__button-icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notitfication">13</span>
+          </div>
+
+          <div class="user-nav__profile">
+            <p class="user-nav__profile-name">Ata</p>
+            <img
+              src="img/Ata.jpg"
+              alt="Ata pic"
+              class="user-nav__profile-pic"
+            />
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="nav-side">
+            <li class="nav-side__item nav-side__item-active">
+              <a href="#" class="nav-side__link">
+                <svg class="nav-side__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>هتل ها</span>
+              </a>
+            </li>
+
+            <li class="nav-side__item">
+              <a href="#" class="nav-side__link">
+                <svg class="nav-side__icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span>پروازها</span>
+              </a>
+            </li>
+
+            <li class="nav-side__item">
+              <a href="#" class="nav-side__link">
+                <svg class="nav-side__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>اجاره خودرو</span>
+              </a>
+            </li>
+
+            <li class="nav-side__item">
+              <a href="#" class="nav-side__link">
+                <svg class="nav-side__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>تورها</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">حق &copy; کپی رایت برای جااینجا محفوظ است.</div>
+        </nav>
+
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-1.jpg"
+                alt="phto of hotel 1"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-2.jpg"
+                alt="phto of hotel 2"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-3.jpg"
+                alt="phto of hotel 3"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">هتل دلفین</h1>
+
+            <div class="overview__stars">
+              <svg class="overview__star-icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__star-icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__star-icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__star-icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__star-icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__location-icon">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="button-inline">کیش، ایران</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.3</div>
+              <div class="overview__rating-count">313 رای</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                این صفحه رو در زمان جنگ بین ایران و رژیم صهیونیستی ملعون ساختم.
+                این سایت جهت تمرین هر چه بیشتر با فلکس باکس ساخته شده است و
+                امیدوارم خوشتون بیاد.
+              </p>
+              <p class="paragraph">
+                به امید پیروزی حق علیه باطل و نابودی رژیم اشغالگر صهیونیستی.
+              </p>
+
+              <ul class="list">
+                <li class="list__item">نزدیک به ساحل</li>
+                <li class="list__item">دارای تهویه مطبوع و گرمایش</li>
+                <li class="list__item">صحبت به تمام زبان های زنده دنیا</li>
+                <li class="list__item">صبحانه رایگان</li>
+                <li class="list__item">وای فای رایگان پرسرعت</li>
+                <li class="list__item">نزدیک به اماکن تجاری و تفریحی</li>
+                <li class="list__item">حیوانات خانگی مجاز هستند</li>
+                <li class="list__item">مناسب برای سفر خانوادگی</li>
+              </ul>
+
+              <div class="recommend">
+                <p class="recommend__count">
+                  جوناس و 4 دوست دیگر این هتل رو پیشنهاد میکنند.
+                </p>
+                <div class="recommend__friends">
+                  <img
+                    src="img/user.jpg"
+                    alt="jonas photo"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-3.jpg"
+                    alt="user photo 3"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="user photo 4"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-5.jpg"
+                    alt="user photo 5"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-6.jpg"
+                    alt="user photo 6"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-1.jpg"
+                    alt="user 1 phto"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">سعید محمدی</p>
+                    <p class="review__user-date">28 خرداد، 1404</p>
+                  </div>
+                  <div class="review__rating">7.8</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-2.jpg"
+                    alt="user 2 phto"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">مریم توماس</p>
+                    <p class="review__user-date">18 اردیبهشت، 1404</p>
+                  </div>
+                  <div class="review__rating">9.3</div>
+                </figcaption>
+              </figure>
+
+              <button class="button-inline inc-btn">بیشتر<span>&larr;</span></button>
+            </div>
+
+            
+          </div>
+          <div class="cta">
+            <p class="cta__text">
+              خبر خوش! ما ۴ اتاق رایگان برای روزهای انتخابی شما داریم!</p>
+              <button class="btn">
+                <span class="btn__visible">اکنون رزرو کنید!</span>
+                <span class="btn__invisible">فقط 4 اتاق باقی مانده است!</span>
+              </button>
+          </div>
+
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
